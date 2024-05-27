@@ -13,7 +13,7 @@ const MainScreen = () => {
     <main className="container mx-auto flex flex-colu md:flex-row items-center  p-8">
       {/* jtem1 */}
       <div className="flex-1 text-left ml-0 p-6 rounded-md">
-        <h1 className="text-5xl font-bold mb-4">
+        <h1 className="text-5xl text-[#12205A] font-bold mb-4">
           당신을 실제로 <br />
           말하게 하는 영어 앱
         </h1>
