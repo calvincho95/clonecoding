@@ -6,9 +6,11 @@ import SecondPage from "./components/SecondPage";
 function App() {
   return (
     <>
-      <TopBanner />
-      <MainScreen />
-      <SecondPage />
+      <div className="grid grid-rows-[auto,1fr] min-h-screen">
+        <TopBanner />
+        <MainScreen />
+        {/* <SecondPage /> */}
+      </div>
     </>
   );
 }
