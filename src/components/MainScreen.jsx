@@ -1,4 +1,3 @@
-import React from "react";
 import image from "../assets/images/657a79fcf1b0fa6087a250e4_new-phone-scrim.webp";
 
 const MainScreen = () => {
@@ -11,9 +10,9 @@ const MainScreen = () => {
     //   <button>무료 체험 시작하기</button>
     //   <div> TEST </div>
     // </main>
-    <main className="container mx-auto flex flex-colu md:flex-row items-center bg-gray-100 p-8">
+    <main className="container mx-auto flex flex-colu md:flex-row items-center  p-8">
       {/* jtem1 */}
-      <div className="flex-1 bg-white p-6 rounded-md shadow-md">
+      <div className="flex-1 bg-white p-6 rounded-md">
         <h1 className="text-4xl font-bold mb-4">
           당신을 실제로 말하게 하는 영어 앱
         </h1>
@@ -30,7 +29,7 @@ const MainScreen = () => {
       </div>
 
       {/* item2 */}
-      <div className="flex-1 mt-8 md:mt-0 md:ml-8 bg-white p-6 rounded-md shadow-md">
+      <div className="flex-1 mt-8 md:mt-0 md:ml-8 bg-white p-6 rounded-md ">
         <img src={image} alt="Phone App" className="w-full h-auto" />
       </div>
     </main>
