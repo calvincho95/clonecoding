@@ -1,5 +1,16 @@
-const App = () => {
-  return <div className="bg-red-100">Hello, React!</div>;
-};
+import React from "react";
+import TopBanner from "./components/TopBanner";
+import MainScreen from "./components/MainScreen";
+import SecondPage from "./components/SecondPage";
+
+function App() {
+  return (
+    <>
+      <TopBanner />
+      <MainScreen />
+      <SecondPage />
+    </>
+  );
+}
 
 export default App;
